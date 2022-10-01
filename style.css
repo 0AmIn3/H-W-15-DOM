@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contOne {
+    width: 80%;
+    height: 520px;
+    margin: 0 auto;
+    background-color: #F4F4F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+.Box {
+    min-width: 400px;
+    max-width: 400px;
+    height: 100%;
+    background-image: url(./2/img/1.jpg);
+    border-radius: 18px;
+    overflow: hidden;
+    padding: 15px;
+    margin: 0 5px;
+}
+
+.span {
+    color: #ABABAB;
+    font-size: 10px;
+}
+
+.h1 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.p {
+    font-size: 18px;
+
+}
+
+
+
+.contTwo {
+    width: 80%;
+    height: fit-content;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+.MacMain {
+    min-width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.MacImgBox {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MacImg {
+    width: 100%;
+    height: 400px;
+}
+
+.MacH1 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.MacPrice {
+    margin-top: 10px;
+    color: #ABABAB;
+    font-size: 20px;
+}
+
+.MacColors {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.MacBuyLink {
+    text-decoration: none;
+}
+
+.MacBuyBtn {
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 18px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.MacColor {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.hr {
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #ABABAB;
+    margin: 30px 0;
+}
+
+.MacDisplayBox {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MacDisplay {
+
+    font-size: 30px;
+}
+
+.MacchipBox {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MacchipImg {
+    width: 50px;
+    height: 50px;
+}
+
+.Macchipdescription {
+    color: #ABABAB;
+    font-size: 16px;
+}
+
+
+.MacramBox {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MacramImg {
+    width: 50px;
+    height: 50px;
+}
+
+.Macramdescription {
+    color: #ABABAB;
+    font-size: 16px;
+}
+
+.MacmemoryBox {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MacotherBoxMain {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MacotherBox {
+    margin: 0 auto;
+}
+
+.MacotherBox img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+
+
+.Lernlink {
+    text-decoration: none;
+    color: #1465d7;
+}
